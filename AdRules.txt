@@ -1,0 +1,27 @@
+!Title: AdRules
+!Version:2023022701
+!Power By Yin
+!https://www.bilibili.com
+www.bilibili.com##.adblock-tips
+
+
+!http://cibaipuki.com
+cibaipuki.com##.topnotice
+cibaipuki.com###menu_top_gg
+cibaipuki.com###menu_bottom_gg
+cibaipuki.com###page_bottom_top_gg
+cibaipuki.com##.titletablerow:nth-child(-n+4)
+cibaipuki.com##.row:nth-child(-n+5)
+cibaipuki.com##.row:nth-child(-n+7)
+cibaipuki.com##.table2
+cibaipuki.com##.copyright
+||cibaipuki.com/static/js/*.js
+
+!屏蔽CSDN搜索结果
+bing.com###b_results > li.b_algo > div.b_caption > div.b_attribution:first-child > cite:has-text(csdn):upward(3)
+
+!https://alist.nn.ci
+alist.nn.ci##.wwads-horizontal.wwads
+
+!https://www.op.gg
+www.op.gg##.e7ebutk4.css-110gr4q
